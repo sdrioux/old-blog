@@ -25,6 +25,10 @@ body {
 
 h2 {
 	color: #200772;
+	font-weight: normal;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 15px;
 
 }
 
@@ -83,7 +87,7 @@ div.container.right {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 6px;
 }
  
 /* Track */
@@ -307,4 +311,10 @@ i.icon-tumblr.icon-2x
 	text-shadow: -1px -1px 0px rgba(0,0,0,.5);
 	margin-top: 20px;
 
+}
+
+span {
+	float: left;
+	width: 48%;
+	margin: 10px;
 }
